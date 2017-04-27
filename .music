@@ -1,0 +1,6 @@
+#! /bin/bash
+while true
+do
+	afplay noise.mp3 &
+	./.music
+done
