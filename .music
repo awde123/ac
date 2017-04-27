@@ -1,8 +1,6 @@
 #! /bin/bash
 while true
 do
-	afplay noise.mp3 &
+	afplay noise.mp3
 	osascript -e 'beep 1'
-	sleep .1
-	./.music
 done
